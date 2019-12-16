@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch=".."
+           review="https://github.com/" />
+  <default revision="mendel-imx_8m"
+           remote="origin" sync-c="true" />
+
+  <project path="bluez-imx" name="TinkerEdgeT/mendel-bluez-imx" />
+  <project path="board" name="TinkerEdgeT/mendel-board-enterprise" />
+  <project path="build" name="TinkerEdgeT/mendel-build" >
+    <linkfile src="Makefile" dest="Makefile" />
+  </project>
+  <project path="docs" name="TinkerEdgeT/mendel-docs" >
+    <linkfile src="GettingStarted.md" dest="GettingStarted.md" />
+  </project>
+  <project path="imx-atf" name="TinkerEdgeT/mendel-imx-atf" />
+  <project path="imx-firmware" name="TinkerEdgeT/mendel-imx-firmware" />
+  <project path="imx-gst-plugins-bad" name="TinkerEdgeT/mendel-imx-gst-plugins-bad" />
+  <project path="imx-gst-plugins-base" name="TinkerEdgeT/mendel-imx-gst-plugins-base" />
+  <project path="imx-gst-plugins-good" name="TinkerEdgeT/mendel-imx-gst-plugins-good" />
+  <project path="imx-gst1.0-plugin" name="TinkerEdgeT/mendel-imx-gst1.0-plugin" />
+  <project path="imx-gstreamer" name="TinkerEdgeT/mendel-imx-gstreamer" />
+  <project path="libdrm-imx" name="TinkerEdgeT/mendel-libdrm-imx" />
+  <project path="linux-imx" name="TinkerEdgeT/mendel-linux-imx" />
+  <project path="packages/base-files" name="TinkerEdgeT/mendel-base-files" />
+  <project path="packages/bluez-imx" name="TinkerEdgeT/mendel-bluez-imx-debian" />
+  <project path="packages/edgetpu" name="TinkerEdgeT/mendel-edgetpu" />
+  <project path="packages/edgetpudemo" name="TinkerEdgeT/mendel-edgetpudemo" />
+  <project path="packages/edgetpuvision" name="TinkerEdgeT/mendel-edgetpuvision" />
+  <project path="packages/imx-atf" name="TinkerEdgeT/mendel-imx-atf-debian" />
+  <project path="packages/imx-board-audio" name="TinkerEdgeT/mendel-imx-board-audio" />
+  <project path="packages/imx-board-tools" name="TinkerEdgeT/mendel-imx-board-tools" />
+  <project path="packages/imx-board-wlan" name="TinkerEdgeT/mendel-imx-board-wlan" />
+  <project path="packages/imx-firmware" name="TinkerEdgeT/mendel-imx-firmware-debian" />
+  <project path="packages/imx-gst-plugins-bad" name="TinkerEdgeT/mendel-imx-gst-plugins-bad-debian" />
+  <project path="packages/imx-gst-plugins-base" name="TinkerEdgeT/mendel-imx-gst-plugins-base-debian" />
+  <project path="packages/imx-gst-plugins-good" name="TinkerEdgeT/mendel-imx-gst-plugins-good-debian" />
+  <project path="packages/imx-gst1.0-plugin" name="TinkerEdgeT/mendel-imx-gst1.0-plugin-debian" />
+  <project path="packages/imx-gstreamer" name="TinkerEdgeT/mendel-imx-gstreamer-debian" />
+  <project path="packages/imx-mkimage" name="TinkerEdgeT/mendel-imx-mkimage-debian" />
+  <project path="packages/libdrm-imx" name="TinkerEdgeT/mendel-libdrm-imx-debian" />
+  <project path="packages/linux-imx" name="TinkerEdgeT/mendel-linux-imx-debian" />
+  <project path="packages/mdt-services" name="TinkerEdgeT/mendel-mdt-services" />
+  <project path="packages/mendel-distro-info-data" name="TinkerEdgeT/mendel-mendel-distro-info-data" />
+  <project path="packages/mendel-keyring" name="TinkerEdgeT/mendel-mendel-keyring" />
+  <project path="packages/mendel-minimal" name="TinkerEdgeT/mendel-mendel-minimal" />
+  <project path="packages/meta-enterprise" name="TinkerEdgeT/mendel-meta-enterprise" />
+  <project path="packages/meta-mendel" name="TinkerEdgeT/mendel-meta-mendel" />
+  <project path="packages/runonce" name="TinkerEdgeT/mendel-runonce" />
+  <project path="packages/tinker-edge-t" name="TinkerEdgeT/mendel-packages-tinker-edge-t" />
+  <project path="packages/uboot-imx" name="TinkerEdgeT/mendel-uboot-imx-debian" />
+  <project path="packages/usb-gadget" name="TinkerEdgeT/mendel-usb-gadget" />
+  <project path="packages/vitalsd" name="TinkerEdgeT/mendel-vitalsd" />
+  <project path="packages/wayland-protocols-imx" name="TinkerEdgeT/mendel-wayland-protocols-imx-debian" />
+  <project path="packages/weston-imx" name="TinkerEdgeT/mendel-weston-imx-debian" />
+  <project path="prebuilts" name="TinkerEdgeT/mendel-prebuilts" />
+  <project path="tools/bpt" name="TinkerEdgeT/mendel-bpt" />
+  <project path="tools/img2simg" name="TinkerEdgeT/mendel-img2simg" />
+  <project path="tools/imx-mkimage" name="TinkerEdgeT/mendel-imx-mkimage" />
+  <project path="tools/mdt" name="TinkerEdgeT/mendel-mdt" />
+  <project path="uboot-imx" name="TinkerEdgeT/mendel-uboot-imx" />
+  <project path="wayland-protocols-imx" name="TinkerEdgeT/mendel-wayland-protocols-imx" />
+  <project path="weston-imx" name="TinkerEdgeT/mendel-weston-imx" />
+</manifest>
