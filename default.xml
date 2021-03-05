@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="origin"
+  <remote  name="github"
            fetch=".."
            review="https://github.com/" />
+
   <default revision="mendel-imx_8m"
-           remote="origin" sync-c="true" />
+           remote="github"
+           sync-c="true" />
 
   <project path="bluez-imx" name="TinkerEdgeT/mendel-bluez-imx" />
   <project path="board" name="TinkerEdgeT/mendel-board-enterprise" />
