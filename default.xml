@@ -4,7 +4,7 @@
            fetch=".."
            review="https://github.com/" />
 
-  <default revision="mendel-imx_8m"
+  <default revision="mendel-day-imx_8m"
            remote="github"
            sync-c="true" />
 
@@ -12,11 +12,13 @@
   <project path="board" name="TinkerEdgeT/mendel-board-enterprise" />
   <project path="build" name="TinkerEdgeT/mendel-build" >
     <linkfile src="Makefile" dest="Makefile" />
+    <linkfile src="build.sh" dest="build.sh" />
   </project>
   <project path="docs" name="TinkerEdgeT/mendel-docs" >
     <linkfile src="GettingStarted.md" dest="GettingStarted.md" />
   </project>
   <project path="imx-atf" name="TinkerEdgeT/mendel-imx-atf" />
+  <project path="imx-board-wlan" name="TinkerEdgeT/mendel-imx-board-wlan-src" />
   <project path="imx-firmware" name="TinkerEdgeT/mendel-imx-firmware" />
   <project path="imx-gst-plugins-bad" name="TinkerEdgeT/mendel-imx-gst-plugins-bad" />
   <project path="imx-gst-plugins-base" name="TinkerEdgeT/mendel-imx-gst-plugins-base" />
@@ -27,7 +29,6 @@
   <project path="linux-imx" name="TinkerEdgeT/mendel-linux-imx" />
   <project path="packages/base-files" name="TinkerEdgeT/mendel-base-files" />
   <project path="packages/bluez-imx" name="TinkerEdgeT/mendel-bluez-imx-debian" />
-  <project path="packages/edgetpu" name="TinkerEdgeT/mendel-edgetpu" />
   <project path="packages/edgetpudemo" name="TinkerEdgeT/mendel-edgetpudemo" />
   <project path="packages/edgetpuvision" name="TinkerEdgeT/mendel-edgetpuvision" />
   <project path="packages/imx-atf" name="TinkerEdgeT/mendel-imx-atf-debian" />
@@ -58,6 +59,7 @@
   <project path="packages/weston-imx" name="TinkerEdgeT/mendel-weston-imx-debian" />
   <project path="prebuilts" name="TinkerEdgeT/mendel-prebuilts" />
   <project path="tools/bpt" name="TinkerEdgeT/mendel-bpt" />
+  <project path="tools/busybox" name="TinkerEdgeT/mendel-busybox" />
   <project path="tools/img2simg" name="TinkerEdgeT/mendel-img2simg" />
   <project path="tools/imx-mkimage" name="TinkerEdgeT/mendel-imx-mkimage" />
   <project path="tools/mdt" name="TinkerEdgeT/mendel-mdt" />
