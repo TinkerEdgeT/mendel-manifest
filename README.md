@@ -14,5 +14,5 @@ Please refer to the following URL to understand how to download the AOSP code.
 
 Then, you can issue the following commands to donwload the source for Tinker Edge T.
 
-    $ repo init -u https://github.com/TinkerEdgeT/mendel-manifest.git -b mendel-day-imx_8m
+    $ repo init -u https://github.com/TinkerEdgeT/mendel-manifest.git -b mendel-eagle-imx_8m
     $ repo sync

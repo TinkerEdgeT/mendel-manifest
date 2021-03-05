@@ -4,7 +4,7 @@
            fetch=".."
            review="https://github.com/" />
 
-  <default revision="mendel-day-imx_8m"
+  <default revision="mendel-eagle-imx_8m"
            remote="github"
            sync-c="true" />
 
@@ -20,6 +20,7 @@
   <project path="imx-atf" name="TinkerEdgeT/mendel-imx-atf" />
   <project path="imx-board-wlan" name="TinkerEdgeT/mendel-imx-board-wlan-src" />
   <project path="imx-firmware" name="TinkerEdgeT/mendel-imx-firmware" />
+  <project path="imx-gpu-viv-ko" name="TinkerEdgeT/mendel-imx-gpu-viv-ko" />
   <project path="imx-gst-plugins-bad" name="TinkerEdgeT/mendel-imx-gst-plugins-bad" />
   <project path="imx-gst-plugins-base" name="TinkerEdgeT/mendel-imx-gst-plugins-base" />
   <project path="imx-gst-plugins-good" name="TinkerEdgeT/mendel-imx-gst-plugins-good" />
@@ -27,15 +28,18 @@
   <project path="imx-gstreamer" name="TinkerEdgeT/mendel-imx-gstreamer" />
   <project path="libdrm-imx" name="TinkerEdgeT/mendel-libdrm-imx" />
   <project path="linux-imx" name="TinkerEdgeT/mendel-linux-imx" />
+  <project path="mendel-testing-tools" name="TinkerEdgeT/mendel-mendel-testing-tools" />
   <project path="packages/base-files" name="TinkerEdgeT/mendel-base-files" />
   <project path="packages/bluez-imx" name="TinkerEdgeT/mendel-bluez-imx-debian" />
   <project path="packages/edgetpudemo" name="TinkerEdgeT/mendel-edgetpudemo" />
   <project path="packages/edgetpuvision" name="TinkerEdgeT/mendel-edgetpuvision" />
+  <project path="packages/enterprise-testing-tools" name="TinkerEdgeT/mendel-enterprise-testing-tools-debian" />
   <project path="packages/imx-atf" name="TinkerEdgeT/mendel-imx-atf-debian" />
   <project path="packages/imx-board-audio" name="TinkerEdgeT/mendel-imx-board-audio" />
   <project path="packages/imx-board-tools" name="TinkerEdgeT/mendel-imx-board-tools" />
   <project path="packages/imx-board-wlan" name="TinkerEdgeT/mendel-imx-board-wlan" />
   <project path="packages/imx-firmware" name="TinkerEdgeT/mendel-imx-firmware-debian" />
+  <project path="packages/imx-gpu-viv-ko" name="TinkerEdgeT/mendel-imx-gpu-viv-ko-debian" />
   <project path="packages/imx-gst-plugins-bad" name="TinkerEdgeT/mendel-imx-gst-plugins-bad-debian" />
   <project path="packages/imx-gst-plugins-base" name="TinkerEdgeT/mendel-imx-gst-plugins-base-debian" />
   <project path="packages/imx-gst-plugins-good" name="TinkerEdgeT/mendel-imx-gst-plugins-good-debian" />
@@ -58,6 +62,7 @@
   <project path="packages/wayland-protocols-imx" name="TinkerEdgeT/mendel-wayland-protocols-imx-debian" />
   <project path="packages/weston-imx" name="TinkerEdgeT/mendel-weston-imx-debian" />
   <project path="prebuilts" name="TinkerEdgeT/mendel-prebuilts" />
+  <project path="releases" name="TinkerEdgeT/mendel-releases" />
   <project path="tools/bpt" name="TinkerEdgeT/mendel-bpt" />
   <project path="tools/busybox" name="TinkerEdgeT/mendel-busybox" />
   <project path="tools/img2simg" name="TinkerEdgeT/mendel-img2simg" />
